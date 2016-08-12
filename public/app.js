@@ -75,5 +75,8 @@
 
 		update_orders_input();
 		update_orders_button();
+
+		$('#cart').text('Your cart in now empty!');
+
 		return false;
 	}

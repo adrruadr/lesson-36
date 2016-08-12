@@ -1,5 +1,5 @@
 <h2>Your cart </h2>
-
+<div id = "cart">
 <table class="table table-striped">
 	<thead> 
 		<tr> 
@@ -30,8 +30,8 @@
 
 	</tbody>
 </table>
-
-
+</div>
+<br />
 <form action="/place_order" method="POST">
 
 <input type="hidden" name="order[orders_input]" value="<%= @orders_input %>" />
